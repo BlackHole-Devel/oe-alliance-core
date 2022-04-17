@@ -26,6 +26,7 @@ RRECOMMENDS:${PN} = " \
     ${DVBPROVIDER}-module-mt2266 \
     ${DVBPROVIDER}-module-tda18250 \
     ${DVBPROVIDER}-module-mn88472 \
+    ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-dib9000", "", d)} \
     firmware-dvb-usb-dib0700-1.20 \
     firmware-dvb-usb-dibusb-5.0.0.11 \
     firmware-dvb-usb-dibusb-6.0.0.8 \
@@ -36,6 +37,6 @@ RRECOMMENDS:${PN} = " \
     "
 
 PV = "1.0"
-PR = "r1"
+PR = "r3"
 
 ALLOW_EMPTY:${PN} = "1"
