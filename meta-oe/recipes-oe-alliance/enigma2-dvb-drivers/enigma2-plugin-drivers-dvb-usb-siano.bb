@@ -7,7 +7,6 @@ DVBPROVIDER ?= "kernel"
 
 RRECOMMENDS:${PN} = " \
     ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-mediatree-dvb-core", "", d)} \
-    ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-mc", "", d)} \
     ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-smsmdtv", "", d)} \
     ${DVBPROVIDER}-module-smsusb \
     ${DVBPROVIDER}-module-smsdvb \

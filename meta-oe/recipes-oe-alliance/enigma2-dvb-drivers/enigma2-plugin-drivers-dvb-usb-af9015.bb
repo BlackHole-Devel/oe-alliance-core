@@ -7,7 +7,6 @@ DVBPROVIDER ?= "kernel"
 
 RRECOMMENDS:${PN} = " \
     ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-mediatree-dvb-core", "", d)} \
-    ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-mc", "", d)} \
     ${DVBPROVIDER}-module-dvb-usb-af9015 \
     ${DVBPROVIDER}-module-af9013 \
     ${DVBPROVIDER}-module-dvb-pll \
