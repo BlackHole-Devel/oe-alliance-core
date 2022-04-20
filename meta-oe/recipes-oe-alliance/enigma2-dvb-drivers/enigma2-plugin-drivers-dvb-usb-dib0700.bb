@@ -6,7 +6,6 @@ require conf/license/license-gplv2.inc
 DVBPROVIDER ?= "kernel"
 
 RRECOMMENDS:${PN} = " \
-    ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-mediatree-dvb-core", "", d)} \
     ${DVBPROVIDER}-module-dvb-usb-dib0700 \
     ${DVBPROVIDER}-module-dvb-usb-dibusb-common \
     ${DVBPROVIDER}-module-dvb-usb-dibusb-mc \
@@ -25,7 +24,6 @@ RRECOMMENDS:${PN} = " \
     ${DVBPROVIDER}-module-mt2266 \
     ${DVBPROVIDER}-module-tda18250 \
     ${DVBPROVIDER}-module-mn88472 \
-    ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-dib9000", "", d)} \
     firmware-dvb-usb-dib0700-1.20 \
     firmware-dvb-usb-dibusb-5.0.0.11 \
     firmware-dvb-usb-dibusb-6.0.0.8 \
@@ -36,6 +34,6 @@ RRECOMMENDS:${PN} = " \
     "
 
 PV = "1.0"
-PR = "r3"
+PR = "r1"
 
 ALLOW_EMPTY:${PN} = "1"

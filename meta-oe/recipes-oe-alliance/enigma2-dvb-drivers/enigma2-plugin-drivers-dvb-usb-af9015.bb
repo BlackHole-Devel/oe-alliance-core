@@ -6,7 +6,6 @@ require conf/license/license-gplv2.inc
 DVBPROVIDER ?= "kernel"
 
 RRECOMMENDS:${PN} = " \
-    ${@bb.utils.contains("DVBPROVIDER", "media-tree", "media-tree-module-mediatree-dvb-core", "", d)} \
     ${DVBPROVIDER}-module-dvb-usb-af9015 \
     ${DVBPROVIDER}-module-af9013 \
     ${DVBPROVIDER}-module-dvb-pll \
@@ -23,6 +22,6 @@ RRECOMMENDS:${PN} = " \
     "
 
 PV = "1.0"
-PR = "r1"
+PR = "r0"
 
 ALLOW_EMPTY:${PN} = "1"

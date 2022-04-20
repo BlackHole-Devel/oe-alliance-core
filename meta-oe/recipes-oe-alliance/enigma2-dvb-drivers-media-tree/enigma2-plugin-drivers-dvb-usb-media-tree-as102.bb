@@ -3,11 +3,10 @@ inherit allarch
 
 require conf/license/license-gplv2.inc
 
-DVBPROVIDER ?= "kernel"
-
 RRECOMMENDS:${PN} = " \
-    ${DVBPROVIDER}-module-dvb-as102 \
-    ${DVBPROVIDER}-module-as102-fe \
+    media-tree-module-mediatree-dvb-core \
+    media-tree--module-dvb-as102 \
+    media-tree--module-as102-fe \
     firmware-as102-data1-st \
     firmware-as102-data2-st \
     "

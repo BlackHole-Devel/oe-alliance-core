@@ -22,6 +22,7 @@ RDEPENDS:${PN} = " \
     packagegroup-openplugins \
     bootlogos-enigma2-meta \
     dvb-usb-drivers-meta \
+    dvb-usb-drivers-media-tree-meta \
     network-usb-drivers-meta \
     extrahw-drivers-meta \
     picons-enigma2-meta \
