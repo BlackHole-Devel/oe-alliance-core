@@ -4,6 +4,7 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
+    enigma2-plugin-drivers-dvb-usb-as102 \
     kernel-module-dvb-as102 \
     kernel-module-as102-fe \
     "

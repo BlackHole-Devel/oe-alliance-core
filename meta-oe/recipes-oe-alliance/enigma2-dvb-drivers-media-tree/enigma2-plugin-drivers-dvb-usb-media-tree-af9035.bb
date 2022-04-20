@@ -4,6 +4,7 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
+    enigma2-plugin-drivers-dvb-usb-af9035 \
     kernel-module-dvb-usb-af9035 \
     kernel-module-af9033 \
     kernel-module-tua9001 \

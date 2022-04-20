@@ -4,14 +4,15 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
-    ${DVBSKYPROVIDER}-module-dvb-usb-rtl2832 \
-    ${DVBSKYPROVIDER}-module-dvb-usb-rtl28xxu \
-    ${DVBSKYPROVIDER}-module-rtl2832 \
-    ${DVBSKYPROVIDER}-module-e4000 \
-    ${DVBSKYPROVIDER}-module-r820t \
-    ${DVBSKYPROVIDER}-module-mt2266 \
-    ${DVBSKYPROVIDER}-module-fc0012 \
-    ${DVBSKYPROVIDER}-module-fc0013 \
+    enigma2-plugin-drivers-dvb-usb-kernelrtl2832 \
+    kernel-module-dvb-usb-rtl2832 \
+    kernel-module-dvb-usb-rtl28xxu \
+    kernel-module-rtl2832 \
+    kernel-module-e4000 \
+    kernel-module-r820t \
+    kernel-module-mt2266 \
+    kernel-module-fc0012 \
+    kernel-module-fc0013 \
     "
 
 RRECOMMENDS:${PN} = " \

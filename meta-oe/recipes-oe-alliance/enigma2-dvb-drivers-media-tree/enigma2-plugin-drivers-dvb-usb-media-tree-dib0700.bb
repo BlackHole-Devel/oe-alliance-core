@@ -4,6 +4,7 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
+    enigma2-plugin-drivers-dvb-usb-dib0700 \
     kernel-module-dvb-usb-dib0700 \
     kernel-module-dvb-usb-dibusb-common \
     kernel-module-dvb-usb-dibusb-mc \

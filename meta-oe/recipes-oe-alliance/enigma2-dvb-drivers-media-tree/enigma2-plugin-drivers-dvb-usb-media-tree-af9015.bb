@@ -4,6 +4,7 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
+    enigma2-plugin-drivers-dvb-usb-af9015 \
     kernel-module-dvb-usb-af9015 \
     kernel-module-af9013 \
     kernel-module-dvb-pll \

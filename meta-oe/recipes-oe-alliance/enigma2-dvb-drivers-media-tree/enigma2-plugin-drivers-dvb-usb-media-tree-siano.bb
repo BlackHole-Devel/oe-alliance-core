@@ -4,6 +4,7 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
+    enigma2-plugin-drivers-dvb-usb-kernelsiano \
     kernel-module-smsmdtv \
     kernel-module-smsusb \
     kernel-module-smsdvb \
