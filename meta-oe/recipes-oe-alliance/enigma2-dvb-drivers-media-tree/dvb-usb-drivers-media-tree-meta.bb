@@ -13,4 +13,4 @@ DEPENDS = "\
     enigma2-plugin-drivers-dvb-usb-media-tree-siano \
     "
 
-PR = "r0"
+PR = "r1"
