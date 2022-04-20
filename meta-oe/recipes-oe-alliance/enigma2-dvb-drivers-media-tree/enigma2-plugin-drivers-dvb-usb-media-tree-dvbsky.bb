@@ -5,14 +5,14 @@ require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
     enigma2-plugin-drivers-dvb-usb-dvbsky-classic \
-    ${DVBSKYPROVIDER}-module-dvb-usb-dvbsky \
-    ${DVBSKYPROVIDER}-module-m88ds3103 \
-    ${DVBSKYPROVIDER}-module-dvbsky-m88ds3103 \
-    ${DVBSKYPROVIDER}-module-dvbsky-m88rs6000 \
-    ${DVBSKYPROVIDER}-module-sit2fe \
-    ${DVBSKYPROVIDER}-module-si2168 \
-    ${DVBSKYPROVIDER}-module-si2157 \
-    ${DVBSKYPROVIDER}-module-ts2020 \
+    ${DVBSKYPROVIDER}-module-dvb-usb-dvbsky-${KV} \
+    ${DVBSKYPROVIDER}-module-m88ds3103-${KV} \
+    ${DVBSKYPROVIDER}-module-dvbsky-m88ds3103-${KV} \
+    ${DVBSKYPROVIDER}-module-dvbsky-m88rs6000-${KV} \
+    ${DVBSKYPROVIDER}-module-sit2fe-${KV} \
+    ${DVBSKYPROVIDER}-module-si2168-${KV} \
+    ${DVBSKYPROVIDER}-module-si2157-${KV} \
+    ${DVBSKYPROVIDER}-module-ts2020-${KV} \
     "
 
 RRECOMMENDS:${PN} = " \

@@ -5,16 +5,16 @@ require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
     enigma2-plugin-drivers-dvb-usb-af9035 \
-    kernel-module-dvb-usb-af9035 \
-    kernel-module-af9033 \
-    kernel-module-tua9001 \
-    kernel-module-mxl5007t \
-    kernel-module-tda18218 \
-    kernel-module-it913x \
-    kernel-module-fc0012 \
-    kernel-module-fc2580 \
-    kernel-module-fc0011 \
-    kernel-module-dvb-usb-v2 \
+    kernel-module-dvb-usb-af9035-${KV} \
+    kernel-module-af9033-${KV} \
+    kernel-module-tua9001-${KV} \
+    kernel-module-mxl5007t-${KV} \
+    kernel-module-tda18218-${KV} \
+    kernel-module-it913x-${KV} \
+    kernel-module-fc0012-${KV} \
+    kernel-module-fc2580-${KV} \
+    kernel-module-fc0011-${KV} \
+    kernel-module-dvb-usb-v2-${KV} \
     "
 
 RRECOMMENDS:${PN} = " \

@@ -4,15 +4,15 @@ inherit allarch
 require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
-    enigma2-plugin-drivers-dvb-usb-kernelrtl2832 \
-    kernel-module-dvb-usb-rtl2832 \
-    kernel-module-dvb-usb-rtl28xxu \
-    kernel-module-rtl2832 \
-    kernel-module-e4000 \
-    kernel-module-r820t \
-    kernel-module-mt2266 \
-    kernel-module-fc0012 \
-    kernel-module-fc0013 \
+    enigma2-plugin-drivers-dvb-usb-rtl2832 \
+    kernel-module-dvb-usb-rtl2832-${KV} \
+    kernel-module-dvb-usb-rtl28xxu-${KV} \
+    kernel-module-rtl2832-${KV} \
+    kernel-module-e4000-${KV} \
+    kernel-module-r820t-${KV} \
+    kernel-module-mt2266-${KV} \
+    kernel-module-fc0012-${KV} \
+    kernel-module-fc0013-${KV} \
     "
 
 RRECOMMENDS:${PN} = " \

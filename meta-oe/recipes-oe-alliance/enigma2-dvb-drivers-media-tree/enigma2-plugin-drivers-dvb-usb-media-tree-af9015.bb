@@ -5,17 +5,17 @@ require conf/license/license-gplv2.inc
 
 RCONFLICTS:${PN} = " \
     enigma2-plugin-drivers-dvb-usb-af9015 \
-    kernel-module-dvb-usb-af9015 \
-    kernel-module-af9013 \
-    kernel-module-dvb-pll \
-    kernel-module-dvb-usb \
-    kernel-module-mc44s803 \
-    kernel-module-mt2060 \
-    kernel-module-mxl5005s \
-    kernel-module-mxl5007t \
-    kernel-module-qt1010 \
-    kernel-module-tda18218 \
-    kernel-module-tda18271 \
+    kernel-module-dvb-usb-af9015-${KV} \
+    kernel-module-af9013-${KV} \
+    kernel-module-dvb-pll-${KV} \
+    kernel-module-dvb-usb-${KV} \
+    kernel-module-mc44s803-${KV} \
+    kernel-module-mt2060-${KV} \
+    kernel-module-mxl5005s-${KV} \
+    kernel-module-mxl5007t-${KV} \
+    kernel-module-qt1010-${KV} \
+    kernel-module-tda18218-${KV} \
+    kernel-module-tda18271-${KV} \
     "
 
 RRECOMMENDS:${PN} = " \
