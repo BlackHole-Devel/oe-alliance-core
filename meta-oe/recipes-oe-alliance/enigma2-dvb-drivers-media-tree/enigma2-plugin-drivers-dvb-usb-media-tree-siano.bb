@@ -3,6 +3,12 @@ inherit allarch
 
 require conf/license/license-gplv2.inc
 
+RCONFLICTS:${PN} = " \
+    kernel-module-smsmdtv \
+    kernel-module-smsusb \
+    kernel-module-smsdvb \
+    "
+
 RRECOMMENDS:${PN} = " \
     media-tree-module-mediatree-dvb-core \
     media-tree-module-smsmdtv \

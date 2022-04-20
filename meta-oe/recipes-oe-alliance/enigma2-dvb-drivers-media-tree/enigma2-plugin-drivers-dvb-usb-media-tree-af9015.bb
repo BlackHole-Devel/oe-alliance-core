@@ -3,6 +3,20 @@ inherit allarch
 
 require conf/license/license-gplv2.inc
 
+RCONFLICTS:${PN} = " \
+    kernel-module-dvb-usb-af9015 \
+    kernel-module-af9013 \
+    kernel-module-dvb-pll \
+    kernel-module-dvb-usb \
+    kernel-module-mc44s803 \
+    kernel-module-mt2060 \
+    kernel-module-mxl5005s \
+    kernel-module-mxl5007t \
+    kernel-module-qt1010 \
+    kernel-module-tda18218 \
+    kernel-module-tda18271 \
+    "
+
 RRECOMMENDS:${PN} = " \
     media-tree-module-mediatree-dvb-core \
     media-tree-module-dvb-usb-af9015 \
